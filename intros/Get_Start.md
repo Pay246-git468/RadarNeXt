@@ -37,7 +37,7 @@ Our RadarNeXt also needs these packages:\
 You can use 'pip' to install torch-scatter:\
 `pip install torch-scatter`\
 If the 'pip' command is failed, you can install this package by 'conda':\
-`conda install pytorch-scatter -c pyg`\
+`conda install pytorch-scatter -c pyg`
 ### DCNv3:
 You can find the .whl file according to your base environment in the [OpenGVLab official website](https://github.com/OpenGVLab/InternImage/releases/tag/whl_files).\
 And then use `pip install {FILENAME_YOUR_DOWNLOADED}` to install DCNv3.
