@@ -6,8 +6,8 @@ For training on [View-of-Delft](https://github.com/tudelft-iv/view-of-delft-data
    For using sparse resnet-18: `python tools/train.py projects/PillarNet/configs/pillarnet_radar_vod.py`;\
    For using sparse resnet-34: `python tools/train.py projects/PillarNet/configs/pillarnet34_radar_vod.py`\
 For testing on View-of-Delft val set:\
-   For using sparse resnet-18: `python tools/test.py projects/PillarNet/configs/pillarnet_radar_vod.py {PATH_TO_WEIGHTS} --samples 1296`\
-   For using sparse resnet-34: `python tools/test.py projects/PillarNet/configs/pillarnet34_radar_vod.py {PATH_TO_WEIGHTS} --samples 1296`\
+   For using sparse resnet-18: `python tools/test.py projects/PillarNet/configs/pillarnet_radar_vod.py {PATH_TO_WEIGHTS} --samples 1296`;\
+   For using sparse resnet-34: `python tools/test.py projects/PillarNet/configs/pillarnet34_radar_vod.py {PATH_TO_WEIGHTS} --samples 1296`
 
 ## Performances
 We trained the PillarNeXt on a single Nvidia RTX A4000 GPU
