@@ -28,4 +28,6 @@ You can also follow these steps to copy our base environments:\
    `mim install 'mmdet3d==1.4.0'`
 If you use the commands above to install these packages successfully, you can fully copy our base environments.
 ## Additional Requirements:
+Our RadarNeXt also needs these packages:\
+- 
 
