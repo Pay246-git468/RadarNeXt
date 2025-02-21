@@ -3,9 +3,9 @@ Here is the reproduced PillarNeXt in MMDetection3D version based on its [Det3D r
 In our RadarNeXt, we design our head based on the CenterHead used by PillarNeXt.
 
 ## Training and Testing
-For training on View-of-Delft:\
+For training on [View-of-Delft](https://github.com/tudelft-iv/view-of-delft-dataset):\
 `python tools/train.py projects/PillarNeXt/configs/pillarnext_radar_vod.py`\
-For training on TJ4DRadSet:\
+For training on [TJ4DRadSet](https://github.com/TJRadarLab/TJ4DRadSet):\
 `python tools/train.py projects/PillarNeXt/configs/pillarnext_radar_tj4d.py`\
 For testing on View-of-Delft val set:\
 `python tools/test.py projects/PillarNeXt/configs/pillarnext_radar_vod.py {PATH_TO_WEIGHTS} --samples 1296`\
