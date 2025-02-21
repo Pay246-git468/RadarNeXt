@@ -11,3 +11,9 @@ For testing on View-of-Delft val set:\
 `python tools/test.py projects/PillarNeXt/configs/pillarnext_radar_vod.py {PATH_TO_WEIGHTS} --samples 1296`\
 For testing on TJ4DRadSet test set:\
 `python tools/test.py projects/PillarNeXt/configs/pillarnext_radar_tj4d.py {PATH_TO_WEIGHTS} --samples 2040`
+
+## Performance on VoD val set and TJ4D test set
+We trained the PillarNeXt on a single Nvidia RTX A4000 GPU
+| Methods | Params | VoD mAP | TJ4D mAP | FPS A4000 | FPS Orin |
+|:--------:|:--------:|:--------:|:--------:|:--------:|:--------:|
+| PillarNeXt | 2.083M | 39.98 | 18.26 | 37.27 | 18.33 |
