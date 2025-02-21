@@ -10,4 +10,4 @@ For training on TJ4DRadSet:\
 For testing on View-of-Delft val set:\
 `python tools/test.py projects/PillarNeXt/configs/pillarnext_radar_vod.py {PATH_TO_WEIGHTS} --samples 1296`\
 For testing on TJ4DRadSet test set:\
-`python tools/test.py projects/PillarNeXt/configs/pillarnext_radar_tj4d.py {PATH_TO_WEIGHTS} --samples 2040`\
+`python tools/test.py projects/PillarNeXt/configs/pillarnext_radar_tj4d.py {PATH_TO_WEIGHTS} --samples 2040`
