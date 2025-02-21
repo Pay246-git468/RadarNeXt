@@ -1,7 +1,7 @@
 # PillarNeXt
 Here is the reproduced PillarNeXt in MMDetection3D version based on its [Det3D repository](https://github.com/qcraftai/pillarnext).\
 In our RadarNeXt, we design our head based on the CenterHead used by PillarNeXt.\
-\
+
 ## Training and Testing
 For training on View-of-Delft:\
 `python tools/train.py projects/PillarNeXt/configs/pillarnext_radar_vod.py`\
