@@ -40,7 +40,12 @@ If the 'pip' command is failed, you can install this package by 'conda':\
 `conda install pytorch-scatter -c pyg`
 ### DCNv3:
 You can find the .whl file according to your base environment in the [OpenGVLab official website](https://github.com/OpenGVLab/InternImage/releases/tag/whl_files).\
-And then use `pip install {FILENAME_YOUR_DOWNLOADED}` to install DCNv3.
+And then use `pip install {FILENAME_YOUR_DOWNLOADED}` to install DCNv3.\
+Or you can download the source code from [OpenGVLab InternImage](https://github.com/OpenGVLab/InternImage/tree/master).\
+Then build the wheel and install the DCNv3 suitable to your own environment with:\
+`cd {PATH_TO_SOURCE_CODE}/InternImage-master/detection/ops_dcnv3/`
+`set DISTUTILS_USE_SDK=1`
+`python setup.py build install`
 ### thop:
 'thop' is the package to calculate the parameter counts and MACS of the models by '[test_model.py](tools/analysis_tools/test_model.py)'.\
 You can install it by running `pip install thop` easily.\
