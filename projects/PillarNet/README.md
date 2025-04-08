@@ -1,5 +1,5 @@
 # PillarNet
-Here is the reproduced PillarNeXt in MMDetection3D version based on its [Det3D repository](https://github.com/VISION-SJTU/PillarNet).
+Here is the reproduced PillarNet in MMDetection3D version based on its [Det3D repository](https://github.com/VISION-SJTU/PillarNet).
 
 ## Training and Testing
 For training on [View-of-Delft](https://github.com/tudelft-iv/view-of-delft-dataset):\
